@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEase - Your Online Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>ShopEase</h1>
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search products...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+            <div class="nav-links">
+                <div id="userProfile" style="display: none;">
+                    <a href="account.html" class="user-profile">
+                        <i class="fas fa-user-circle"></i>
+                        <span id="userName"></span>
+                    </a>
+                </div>
+                <div id="loginLink">
+                    <a href="account.html"><i class="fas fa-user"></i> Account</a>
+                </div>
+                <a href="#"><i class="fas fa-heart"></i> Wishlist</a>
+                <a href="cart.html" class="cart-icon"><i class="fas fa-shopping-cart"></i> Cart <span class="cart-count">0</span></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1920&auto=format&fit=crop&q=80&ixlib=rb-4.0.3'); background-size: cover; background-position: center;">
+        <div class="hero-content">
+            <h2>Welcome to ShopEase</h2>
+            <p>Discover amazing products at unbeatable prices</p>
+      
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="products-container" id="products-container">
+            <!-- Products will be dynamically added here -->
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories">
+        <div class="categories-header">
+            <h2>Shop by Category</h2>
+            <p>Explore our wide range of products</p>
+        </div>
+        <div class="category-cards">
+            <div class="category-card">
+                <div class="category-image">
+                    <img src="560.png" alt="Electronics">
+                    <div class="category-overlay">
+                       
+                    </div>
+                </div>
+                <div class="category-content">
+                    <h3>Electronics</h3>
+                    <p>Discover the latest gadgets and tech innovations</p>
+                    <a href="electronics.html" class="shop-now-btn">
+                        Shop Now <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="category-card">
+                <div class="category-image">
+                    <img src="62.jpg" alt="Fashion">
+                    <div class="category-overlay">
+                     
+                    </div>
+                </div>
+                <div class="category-content">
+                    <h3>Fashion</h3>
+                    <p>Explore trendy clothing and accessories</p>
+                    <a href="fashion.html" class="shop-now-btn">
+                        Shop Now <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="category-card">
+                <div class="category-image">
+                    <img src="https://images.unsplash.com/photo-1556911220-bff31c812dba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Home & Kitchen">
+                    <div class="category-overlay">
+                       
+                    </div>
+                </div>
+                <div class="category-content">
+                    <h3>Home & Kitchen</h3>
+                    <p>Transform your living space with our collection</p>
+                    <a href="home-kitchen.html" class="shop-now-btn">
+                        Shop Now <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>ShopEase is your one-stop destination for all your shopping needs.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@shopease.com</p>
+                <p>Phone: +1 234 567 890</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 ShopEase. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
